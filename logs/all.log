@@ -256,3 +256,11 @@
 2024-11-15 15:44:54 [[32minfo[39m]: Listening on 8080
 2024-11-15 15:53:42 [[32minfo[39m]: MongoDB connected
 2024-11-15 15:53:42 [[32minfo[39m]: Listening on 8080
+2024-11-15 17:48:12 [[32minfo[39m]: MongoDB connected
+2024-11-15 17:48:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 17:48:13 [[32minfo[39m]: MongoDB connected
+2024-11-15 17:48:13 [[32minfo[39m]: Listening on 8080
+2024-11-15 17:49:03 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-11-15 17:49:03 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-11-15 17:49:04 [[32minfo[39m]: MongoDB connected
+2024-11-15 17:49:04 [[32minfo[39m]: Listening on 8080

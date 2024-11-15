@@ -43,7 +43,7 @@ describe("Test de integración para el endpoint /api/adoptions/:aid", () => {
 
 describe("Test de integración para el endpoint POST /api/adoptions/:uid/:pid", () => {
   const validUserId="670d7e01d0dcfc49f700b7f4"; //Un ID User de MongoDB que existe
-  const validPetId="670d77c35bac27ee3052ac59"; //Un ID Pet de MongoDB que existe.Poner un ID Pet que no se encuentre adoptado
+  const validPetId="670d77c35bac27ee3052ac5e"; //Un ID Pet de MongoDB que existe.Poner un ID Pet que no se encuentre adoptado
   const invalidUserId="670d7e01d0dcfc49f700b8fe"; //Un ID User de MongoDB que no existe
   const invalidPetId="670d77c35bac28ee3052ac47"; //Un ID Pet de MongoDB que no existe
   
