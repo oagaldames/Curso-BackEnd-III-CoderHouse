@@ -1,0 +1,84 @@
+paths:
+  /api/users/{uid}:
+    put:
+      summary: Actualizar usuario por ID
+      description: "Actualiza la información de un usuario específico por su ID."
+      tags:
+        - Users
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          description: "ID único del usuario que se desea actualizar"
+          schema:
+            type: string
+            example: "5f7e9f9b5f7e9f9b5f7e9f9b"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                first_name:
+                  type: string
+                  description: "Nuevo nombre del usuario"
+                  example: "John"
+                last_name:
+                  type: string
+                  description: "Nuevo apellido del usuario"
+                  example: "Doe"
+                email:
+                  type: string
+                  description: "Nuevo correo electrónico del usuario"
+                  example: "john.doe@example.com"
+                role:
+                  type: string
+                  description: "Nuevo rol del usuario"
+                  example: "admin"
+      responses:
+        200:
+          description: "Solicitud exitosa. Usuario actualizado correctamente."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  message:
+                    type: string
+                    example: "User updated"
+              examples:
+                ejemploExito:
+                  summary: Ejemplo de respuesta exitosa
+                  value:
+                    status: "success"
+                    message: "User updated"
+        404:
+          description: "Usuario no encontrado."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              examples:
+                ejemploError:
+                  summary: Ejemplo de error de usuario no encontrado
+                  value:
+                    message: "User not found"
+                    code: 404
+        500:
+          description: "Error en el servidor al intentar actualizar el usuario."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              examples:
+                ejemploErrorServidor:
+                  summary: Ejemplo de error en el servidor
+                  value:
+                    message: "Internal Server Error"
+                    code: 500
+
+

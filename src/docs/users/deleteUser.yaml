@@ -1,0 +1,60 @@
+paths:
+  /api/users/{uid}:
+    delete:
+      summary: Eliminar usuario por ID
+      description: "Elimina un usuario específico por su ID."
+      tags:
+        - Users
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          description: "ID único del usuario que se desea eliminar"
+          schema:
+            type: string
+            example: "5f7e9f9b5f7e9f9b5f7e9f9b"
+      responses:
+        200:
+          description: "Solicitud exitosa. Usuario eliminado correctamente."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  message:
+                    type: string
+                    example: "User deleted"
+              examples:
+                ejemploExito:
+                  summary: Ejemplo de respuesta exitosa
+                  value:
+                    status: "success"
+                    message: "User deleted"
+        404:
+          description: "Usuario no encontrado."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              examples:
+                ejemploError:
+                  summary: Ejemplo de error de usuario no encontrado
+                  value:
+                    message: "User not found"
+                    code: 404
+        500:
+          description: "Error en el servidor al intentar eliminar el usuario."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              examples:
+                ejemploErrorServidor:
+                  summary: Ejemplo de error en el servidor
+                  value:
+                    message: "Internal Server Error"
+                    code: 500
+

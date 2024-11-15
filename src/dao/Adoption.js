@@ -7,7 +7,7 @@ export default class Adoption {
     }
 
     getBy = (params) =>{
-        return adoptionModel.findOne(params);
+        return adoptionModel.findById(params);
     }
 
     save = (doc) =>{

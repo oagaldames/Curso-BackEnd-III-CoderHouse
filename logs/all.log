@@ -1,0 +1,258 @@
+2024-11-13 09:26:40 [[32minfo[39m]: MongoDB connected
+2024-11-13 09:26:40 [[32minfo[39m]: Listening on 8080
+2024-11-13 09:26:42 [[32minfo[39m]: MongoDB connected
+2024-11-13 09:26:42 [[32minfo[39m]: Listening on 8080
+2024-11-13 09:28:04 [[32minfo[39m]: MongoDB connected
+2024-11-13 09:28:04 [[32minfo[39m]: Listening on 8080
+2024-11-13 09:53:03 [[32minfo[39m]: MongoDB connected
+2024-11-13 09:53:03 [[32minfo[39m]: Listening on 8080
+2024-11-13 13:54:30 [[32minfo[39m]: MongoDB connected
+2024-11-13 13:54:30 [[32minfo[39m]: Listening on 8080
+2024-11-13 13:54:32 [[32minfo[39m]: MongoDB connected
+2024-11-13 13:54:32 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:00:19 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:00:19 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:02:32 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:02:32 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:11:55 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:11:55 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:12:51 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:12:51 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:13:12 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:13:12 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:23:13 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:23:13 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:27:16 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:27:16 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:39:54 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:39:54 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:50:23 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:50:23 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:52:56 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:52:56 [[32minfo[39m]: Listening on 8080
+2024-11-13 14:53:49 [[32minfo[39m]: MongoDB connected
+2024-11-13 14:53:50 [[32minfo[39m]: Listening on 8080
+2024-11-13 15:10:20 [[32minfo[39m]: MongoDB connected
+2024-11-13 15:10:20 [[32minfo[39m]: Listening on 8080
+2024-11-13 15:10:22 [[32minfo[39m]: MongoDB connected
+2024-11-13 15:10:22 [[32minfo[39m]: Listening on 8080
+2024-11-14 08:49:46 [[32minfo[39m]: MongoDB connected
+2024-11-14 08:49:46 [[32minfo[39m]: Listening on 8080
+2024-11-14 08:49:47 [[32minfo[39m]: MongoDB connected
+2024-11-14 08:49:47 [[32minfo[39m]: Listening on 8080
+2024-11-14 08:57:12 [[32minfo[39m]: MongoDB connected
+2024-11-14 08:57:12 [[32minfo[39m]: Listening on 8080
+2024-11-14 08:58:13 [[32minfo[39m]: MongoDB connected
+2024-11-14 08:58:13 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:09:10 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:09:10 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:10:45 [[31merror[39m]: [GET] api/users/:uid - Class UserControllers.getUser User id 5f7e9f9b5f7e9f9b5f7e9f9b not found
+2024-11-14 09:20:14 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:20:14 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:20:52 [[31merror[39m]: [PUT] api/users/:uid - Class UserControllers.updateUser User id 5f7e9f9b5f7e9f9b5f7e9f9b not found
+2024-11-14 09:20:53 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:20:53 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:39:38 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:39:38 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:40:41 [[31merror[39m]: [DELETE] api/users/:uid - Class UserControllers.deleteUser Cast to ObjectId failed for value "670d7e01d0dcfc49f700b7e" (type string) at path "_id" for model "Users"
+2024-11-14 09:41:07 [[31merror[39m]: [DELETE] api/users/:uid - Class UserControllers.deleteUser User id 670d7e01d0dcfc49f740b7ed not found
+2024-11-14 09:51:30 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:51:30 [[32minfo[39m]: Listening on 8080
+2024-11-14 09:51:32 [[32minfo[39m]: MongoDB connected
+2024-11-14 09:51:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 08:57:27 [[32minfo[39m]: MongoDB connected
+2024-11-15 08:57:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 08:57:29 [[32minfo[39m]: MongoDB connected
+2024-11-15 08:57:29 [[32minfo[39m]: Listening on 8080
+2024-11-15 08:59:14 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "non-existent-route" (type string)
+2024-11-15 09:34:58 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "force-error" (type string)
+2024-11-15 09:42:56 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "force-error" (type string)
+2024-11-15 09:42:56 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "64b3e9b2b2f21c4567abcdef" (type string)
+2024-11-15 09:42:56 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "invalid-id" (type string)
+2024-11-15 09:43:58 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:43:58 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:45:12 [[31merror[39m]: [GET] api/users/:uid - Class UserControllers.getUser User id 670d7e01d0dcfc49f700b7ec not found
+2024-11-15 09:47:43 [[31merror[39m]: [POST] api/adoptions//:uid/:pid - Class AdoptionsController.createAdoption usersService is not defined
+2024-11-15 09:48:37 [[31merror[39m]: [POST] api/adoptions//:uid/:pid - Class AdoptionsController.createAdoption usersService is not defined
+2024-11-15 09:50:15 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:50:15 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:50:18 [[31merror[39m]: [POST] api/adoptions//:uid/:pid - Class AdoptionsController.createAdoption usersService is not defined
+2024-11-15 09:55:31 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:55:31 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:55:35 [[31merror[39m]: [POST] api/adoptions//:uid/:pid - Class AdoptionsController.createAdoption usersService is not defined
+2024-11-15 09:57:13 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:57:13 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:57:17 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 09:58:26 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:58:26 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:58:27 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:58:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:58:35 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 09:59:51 [[32minfo[39m]: MongoDB connected
+2024-11-15 09:59:51 [[32minfo[39m]: Listening on 8080
+2024-11-15 09:59:57 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:02:57 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:02:57 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:03:08 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:03:49 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:03:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:03:53 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:04:07 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:04:07 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:04:14 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:06:14 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:06:14 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:06:18 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:06:59 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:06:59 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:07:03 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:08:23 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:08:23 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:08:30 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:09:47 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:09:47 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:09:51 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:10:41 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:10:41 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:10:45 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:11:36 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:11:36 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:11:40 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:14:32 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:14:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:14:42 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getById')
+2024-11-15 10:17:25 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:17:25 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:17:49 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:17:49 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:17:54 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Cannot read properties of undefined (reading 'getPetById')
+2024-11-15 10:19:17 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:19:17 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:19:21 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Parameter "filter" to findOne() must be an object, got "670d77c35bac27ee3052ac3d" (type string)
+2024-11-15 10:20:56 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:20:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:21:43 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:21:43 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:22:46 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:22:46 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:23:40 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "force-error" (type string)
+2024-11-15 10:23:40 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "67374abc1eeb450a3e46257d" (type string)
+2024-11-15 10:23:40 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "64b3e9b2b2f21c4567abcdef" (type string)
+2024-11-15 10:23:40 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "invalid-id" (type string)
+2024-11-15 10:31:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "force-error" (type string)
+2024-11-15 10:31:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "67374abc1eeb450a3e46257d" (type string)
+2024-11-15 10:31:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "64b3e9b2b2f21c4567abcdef" (type string)
+2024-11-15 10:31:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Parameter "filter" to findOne() must be an object, got "invalid-id" (type string)
+2024-11-15 10:35:12 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:35:12 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:35:27 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:35:27 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 10:35:27 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:40:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:40:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e46257h" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:40:18 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:41:26 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e46257h" (type string) at path "_id" for model "Adoptions"
+2024-11-15 10:41:53 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 10:42:17 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:42:17 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:42:23 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 10:46:06 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:46:06 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:46:12 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 10:46:43 [[32minfo[39m]: MongoDB connected
+2024-11-15 10:46:43 [[32minfo[39m]: Listening on 8080
+2024-11-15 10:46:45 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 11:16:18 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:16:18 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:16:19 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:16:19 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:16:27 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 11:18:28 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:18:28 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:18:31 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError is not defined
+2024-11-15 11:19:57 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:19:57 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:20:00 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption customError.notFoundError is not a constructor
+2024-11-15 11:21:11 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:21:11 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:21:43 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:21:43 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e46257h" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:21:43 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:23:32 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:23:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:23:40 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:23:40 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:23:47 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:23:47 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e46257h" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:23:47 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:24:28 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "gfdg" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:26:35 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:26:35 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:26:44 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:26:44 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e46257h" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:26:44 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:27:38 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:29:56 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:29:56 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:30:53 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:31:27 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:31:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:31:38 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "force-error" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:32:29 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e4657d" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:33:37 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:33:37 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:33:41 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "67374abc1eeb450a3e4657d" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:34:03 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:34:03 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:34:23 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Cast to ObjectId failed for value "novalidid" (type string) at path "_id" for model "Adoptions"
+2024-11-15 11:42:25 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:42:25 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:51:05 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:51:05 [[32minfo[39m]: Listening on 8080
+2024-11-15 11:53:27 [[32minfo[39m]: MongoDB connected
+2024-11-15 11:53:27 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:25:08 [[32minfo[39m]: MongoDB connected
+2024-11-15 12:25:08 [[32minfo[39m]: Listening on 8080
+2024-11-15 12:25:10 [[32minfo[39m]: MongoDB connected
+2024-11-15 12:25:10 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:31:16 [[32minfo[39m]: MongoDB connected
+2024-11-15 13:51:05 [[32minfo[39m]: MongoDB connected
+2024-11-15 13:51:05 [[32minfo[39m]: Listening on 8080
+2024-11-15 13:53:50 [[32minfo[39m]: MongoDB connected
+2024-11-15 13:53:50 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:01:00 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:01:00 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption User id 64b6f6dc87aa2f001cf40f59 not found
+2024-11-15 14:01:00 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:05:02 [[32minfo[39m]: MongoDB connected
+2024-11-15 14:05:02 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:05:24 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:05:24 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption User id 64b6f6dc87aa2f001cf40f59 not found
+2024-11-15 14:05:24 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:09:31 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:09:31 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption User id 64b6f6dc87aa2f001cf40f59 not found
+2024-11-15 14:09:31 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption customError is not defined
+2024-11-15 14:28:25 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption User id 670d7e01d0dcfc494700b7ee not found
+2024-11-15 14:30:57 [[32minfo[39m]: MongoDB connected
+2024-11-15 14:30:57 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:31:30 [[32minfo[39m]: MongoDB connected
+2024-11-15 14:31:30 [[32minfo[39m]: Listening on 8080
+2024-11-15 14:31:32 [[32minfo[39m]: MongoDB connected
+2024-11-15 14:31:32 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:04:54 [[31merror[39m]: [GET] api/adoptions - Class AdoptionsController.getAllAdoptions Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15 15:04:56 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15 15:04:58 [[31merror[39m]: [GET] api/adoptions/:aid - Class AdoptionsController.getAdoption Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15 15:05:00 [[31merror[39m]: [POST] api/adoptions/:uid/:pid - Class AdoptionsController.createAdoption Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-11-15 15:05:08 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:05:08 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:09:17 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:09:17 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:32:04 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:32:04 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:32:06 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:32:06 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:32:24 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:32:24 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:44:54 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:44:54 [[32minfo[39m]: Listening on 8080
+2024-11-15 15:53:42 [[32minfo[39m]: MongoDB connected
+2024-11-15 15:53:42 [[32minfo[39m]: Listening on 8080

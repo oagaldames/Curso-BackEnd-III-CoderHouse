@@ -8,9 +8,8 @@ export class PetServices {
     const pets = await this.petDao.get();
     return pets;
   }
-  async getById(id) {
+  async getPetById(id) {
     const pet = await this.petDao.getBy(id);
-    if (!pet) throw customError.notFoundError(`Pet id ${id} not found`);
     return pet;
   }
 

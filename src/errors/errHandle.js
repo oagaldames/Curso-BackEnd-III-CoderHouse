@@ -1,6 +1,7 @@
 import { logger } from "../utils/logger.js";
 
 export const errorHandle = (err, req, res, next) => {
+  console.log("ERROR",err);
   const status = err.status || 500;
   logger.error(`${err.path} ${err.message}`);
   const message = status === 500 ? "Internal server error" : err.message;

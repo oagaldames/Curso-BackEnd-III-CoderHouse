@@ -1,3 +1,3 @@
 # Curso BackEnd III CoderHouse
-## Pre Entrega Proyecto final
+## Proyecto final
 ## Alumno: Omar A. Galdames

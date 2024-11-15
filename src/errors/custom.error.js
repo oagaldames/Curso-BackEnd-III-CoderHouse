@@ -1,5 +1,5 @@
 export class CustomError {
-  notFoundError(message = "Not found") {
+  notFoundError(message) {
     const error = new Error(message);
     error.status = 404;
     return error;

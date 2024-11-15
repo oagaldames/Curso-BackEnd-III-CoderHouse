@@ -1,0 +1,49 @@
+paths:
+  /api/users/mock:
+    get:
+      summary: Crear usuarios de prueba
+      description: "Genera y almacena 10 usuarios de prueba con datos aleatorios en la base de datos."
+      tags:
+        - Users
+      responses:
+        201:
+          description: "Usuarios de prueba creados y almacenados correctamente."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "ok"
+                  users:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Users"
+              examples:
+                ejemploExito:
+                  summary: Ejemplo de respuesta exitosa
+                  value:
+                    status: "ok"
+                    users:
+                      - first_name: "John"
+                        last_name: "Doe"
+                        email: "john.doe@example.com"
+                        role: "user"
+                      - first_name: "Jane"
+                        last_name: "Smith"
+                        email: "jane.smith@example.com"
+                        role: "admin"
+        500:
+          description: "Error en el servidor al intentar crear usuarios de prueba."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              examples:
+                ejemploErrorServidor:
+                  summary: Ejemplo de error en el servidor
+                  value:
+                    message: "Internal Server Error"
+                    code: 500
+

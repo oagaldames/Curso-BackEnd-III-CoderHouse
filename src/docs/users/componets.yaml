@@ -1,0 +1,58 @@
+components:
+  schemas:
+    Users:
+      type: array
+      items:
+        type: object
+        properties:
+          _id: 
+            type: ObjectId
+            description: ID único del usuario
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuario
+          email:
+            type: string
+            format: email
+            description: Correo electrónico del usuario
+          password:
+            type: string
+            description: Contraseña del usuario (almacenada en formato seguro)
+          role:
+            type: string
+            description: Rol del usuario (ej., 'user', 'admin')
+          pets:
+            type: array
+            description: Lista de mascotas del usuario
+            items:
+              $ref: '#/components/schemas/Pets'
+      example:
+        - _id: "5f7e9f9b5f7e9f9b5f7e9f9b"
+          first_name: "John"
+          last_name: "Doe"
+          email: "johndoe@example.com"
+          password: "hashedpassword123"
+          role: "user"
+          pets:
+            - _id: "5f7e9f9b5f7e9f9b5f7e9f9b"
+              name: "Buddy"
+              specie: "Dog"
+              owner: "5f7e9f9b5f7e9f9b5f7e9f9b"
+              image: "https://cdn.pixabay.com/photo/2017/02/12/21/27/dog-2061572_1280.jpg"
+              birthDate: "2000-12-30"
+              adopted: false
+              
+    Error:
+        type: object
+        properties:
+          message:
+            type: string
+            description: "Mensaje descriptivo del error"
+            example: "Internal Server Error"
+          code:
+            type: integer
+            description: "Código de estado HTTP del error"
+            example: 500

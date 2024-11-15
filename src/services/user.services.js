@@ -13,7 +13,6 @@ export class UserServices {
   }
   async getById(id) {
     const user = await this.userDao.getBy(id);
-    if (!user) throw customError.notFoundError(`User id ${id} not found`);
     return user;
   }
   async create(data) {

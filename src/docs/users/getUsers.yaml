@@ -1,0 +1,48 @@
+info:
+  title: API de Usuarios
+  description: API para gestionar usuarios en la aplicación. Permite obtener, crear, actualizar y eliminar información de usuarios.
+  version: 1.0.0
+
+paths:
+  /api/users:
+    get:
+      summary: Obtener lista de todos los usuarios
+      description: "Devuelve una lista completa de todos los usuarios registrados en el sistema."
+      tags:
+        - Users
+      responses:
+        200:
+          description: "Solicitud exitosa. Devuelve un objeto que contiene el estado y el array de usuarios."
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  payload:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Users"
+              examples:
+                ejemplo:
+                  summary: Ejemplo de respuesta exitosa
+                  value:
+                    status: "success"
+                    payload:
+                      - id: 1
+                        name: "Juan Pérez"
+                        email: "juan.perez@example.com"
+                      - id: 2
+                        name: "Maria López"
+                        email: "maria.lopez@example.com"
+        500:
+          description: "Error en el servidor al intentar obtener los usuarios."
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              example:
+                message: "Internal Server Error"
+                code: 500

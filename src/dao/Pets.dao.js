@@ -7,7 +7,7 @@ export default class Pet {
     }
 
     getBy = (params) =>{
-        return petModel.findOne(params);
+        return petModel.findById (params);
     }
 
     save = (doc) =>{
